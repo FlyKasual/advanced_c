@@ -1,0 +1,21 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "binaryPath": "/Users/Johannes/Projects/udemy/c_advanced/build/main",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/../build",
+            "binaryPath": "/build/main",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/Johannes/Projects/udemy/c_advanced/build",
+            "binaryPath": "/Users/Johannes/Projects/udemy/c_advanced/build/main",
+            "binaryArgs": []
+        }
+    ],
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "cmake.configureOnOpen": false
+}
