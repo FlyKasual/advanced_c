@@ -17,5 +17,10 @@
         }
     ],
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "stdlib.h": "c",
+        "string.h": "c",
+        "memory.h": "c"
+    }
 }
