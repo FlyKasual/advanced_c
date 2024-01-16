@@ -36,7 +36,7 @@ int main(void) {
     size = sizeof(array1);
 
     if (sizeof(array2) < size)
-    size = sizeof(array2);
+        size = sizeof(array2);
 
     size = size / sizeof(int);
 
