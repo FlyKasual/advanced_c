@@ -3,8 +3,7 @@
 
 size_t numberOfTimesCharacterInString(const char *const str, const char c) {
     size_t n = 0;
-    size_t len = lengthOfString(str);
-    for (size_t i = 0; i < len; ++i) {
+    for (size_t i = 0; str[i] != '\0'; ++i) {
         if (str[i] == c)
             ++n;
     }
@@ -34,8 +33,7 @@ size_t lengthOfString(const char *const str) {
 
 int strConcat(char *left, const char *const right) {
     size_t l1 = lengthOfString(left);
-    size_t l2 = lengthOfString(right);
-    for (size_t i = 0; i < l2; ++i) {
+    for (size_t i = 0; right[i] != '\0'; ++i) {
         left[l1 + i] = right[i];
     }
 
@@ -44,8 +42,7 @@ int strConcat(char *left, const char *const right) {
 
 int strCopy(const char *const from, char * to /* make the pointer const, too? */) {
     size_t i = 0;
-    size_t l = lengthOfString(from);
-    for (i = 0; i < l; ++i) {
+    for (i = 0; from[i] != '\0'; ++i) {
         to[i] = from[i];
     }
     to[i] = '\0';
