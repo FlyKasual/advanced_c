@@ -3,7 +3,7 @@
 #include <time.h>
 #include "Fac.h"
 
-int main(void) {
+int __mmmain(void) {
     unsigned int n = 0;
     unsigned long long facN = 0;
     clock_t begin = 0;
