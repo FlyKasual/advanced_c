@@ -1,3 +1,5 @@
 build/
 tags
+*.a
+*.o
 .DS_Store
