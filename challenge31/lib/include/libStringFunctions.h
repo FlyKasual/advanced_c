@@ -6,11 +6,11 @@
 /**
  * I am fairly certain a lot of these will not be memory safe!
  */
-size_t numberOfTimesCharacterInString(const char *const, const char);
-int removeNonAlphaCharacter(char * /* make the pointer const, too? */);
-size_t lengthOfString(const char *const);
-int strConcat(char *, const char *const);
-int strCopy(const char *const, char * /* make the pointer const, too? */);
-int substring(const char *const, size_t, size_t, char * /* make the pointer const, too? */);
+size_t numberOfTimesCharacterInString(const char *const restrict str, const char c);
+int removeNonAlphaCharacter(char *restrict str);
+size_t lengthOfString(const char *const restrict str);
+int strConcat(char * left, const char *const right);
+int strCopy(const char *const from, char *const to);
+int substring(const char *const src, const size_t from, size_t n, char *const dest);
 
 #endif
