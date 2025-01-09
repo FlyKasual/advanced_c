@@ -21,6 +21,7 @@ int main(void) {
     strCopy(str, str1);
     printf("str1 now is: %s\n", str1);
     *str = '\0';
+    printf("testFunction returns %i", testFunction());
 
     return EXIT_SUCCESS;
 }
